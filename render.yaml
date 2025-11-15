@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: iam-access-control
+    env: python
+    region: singapore
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
