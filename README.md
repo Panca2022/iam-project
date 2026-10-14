@@ -215,7 +215,7 @@ Output:
 - **Render:** `render.yaml` uses `gunicorn app:app`. Set `SECRET_KEY` and `FLASK_ENV=production` as environment variables.
 - **Database migration to Postgres:** replace `sqlite3.connect` with a Postgres driver; SQL is otherwise standard.
 
-## 15. Glossary
+## 14. Glossary
 
 - **IAM** - Identity and Access Management.
 - **RBAC** - Role-Based Access Control.
